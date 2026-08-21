@@ -34,5 +34,5 @@ export interface SavedDocument {
   uploadedAt: string;
   status: "In Progress" | "Completed";
   fields: FormField[];
-  currentStep: "REVIEW" | "CHAT" | "VALIDATE" | "DOWNLOAD";
+  currentStep: "review" | "validation" | "complete";
 }
