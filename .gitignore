@@ -1,0 +1,39 @@
+# Node dependencies
+node_modules/
+frontend/node_modules/
+
+# Next.js build and cache outputs
+.next/
+frontend/.next/
+out/
+build/
+
+# Python virtualenv
+venv/
+backend/venv/
+__pycache__/
+backend/app/__pycache__/
+*.pyc
+
+# Local databases and locks
+*.db
+*.db-journal
+backend/formflow.db
+
+# File uploads cache
+backend/uploads/*.pdf
+!backend/uploads/scholarship_application_form_template.pdf
+
+# Environment variables & secrets
+.env
+backend/.env
+frontend/.env.local
+
+# IDE configurations & system logs
+.DS_Store
+.vscode/
+.idea/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
